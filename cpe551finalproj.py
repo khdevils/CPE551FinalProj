@@ -91,7 +91,7 @@ y_pred = decision_tree.predict(x_test)
 print("Test Accuracy:",metrics.accuracy_score(y_test, y_pred))
 
 print("Confusion Matrix:")
-print(confusion_matrix(y_test, y_pred)) #to satisfy the question 3 requests
+print(confusion_matrix(y_test, y_pred))
 
 print("Accuracy and other values")
 print(classification_report(y_test, y_pred))
